@@ -15,7 +15,7 @@ controllers.init(app);
 
 app.get("/api/users", function(req, res) {
 	res.set("Content-Type", "application/json");
-	res.send({ name: "DarrenAlfonso", isValid: true, group: "Admin" });
+	res.send({ name: "Darren", isValid: true, group: "Admin" });
 });
 
 var server = http.createServer(app);
