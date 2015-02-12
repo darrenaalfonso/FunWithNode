@@ -1,0 +1,25 @@
+{
+  "name": "FunWithNode",
+  "version": "0.1.0",
+  "description": "Messing around with node",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrenalfonso/FunWithNode.git"
+  },
+  "author": "Darren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrenalfonso/FunWithNode/issues"
+  },
+  "homepage": "https://github.com/darrenalfonso/FunWithNode"
+}
