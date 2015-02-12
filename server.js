@@ -1,10 +1,19 @@
 var http = require("http");
 var express = require("express");
 var app = express();
+var controllers = require("./controllers");
 
-app.get("/", function(req, res){
-	res.send("<html><body><h1>Express</h1></body></html>");
-})
+//Setup the view engine
+//app.set("view engine", "jade");
+app.set("view engine", "vash");
+
+//Map the routes
+controllers.init(app);
+
+app.get("/api/users", function(req, res) {
+	res.set("Content-Type", "application/json");
+	res.send({ name: "Darren", isValid: true, group: "Admin" });
+});
 
 var server = http.createServer(app);
 

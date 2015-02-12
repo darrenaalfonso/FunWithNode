@@ -5,7 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.11.2",
-    "underscore": "^1.7.0"
+    "jade": "^1.9.2",
+    "underscore": "^1.7.0",
+    "vash": "^0.7.12-1"
   },
   "devDependencies": {},
   "scripts": {
