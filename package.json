@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.11.2",
     "jade": "^1.9.2",
+    "mongodb": "^1.4.31",
     "underscore": "^1.7.0",
     "vash": "^0.7.12-1"
   },
