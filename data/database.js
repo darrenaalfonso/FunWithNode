@@ -13,6 +13,7 @@
 				} else {
 					theDb = {
 						db: db
+						notes: db.collection("notes")
 					};
 					next(null, theDb);
 				}
